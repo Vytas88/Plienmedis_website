@@ -101,6 +101,12 @@ body {
   color: rgba(255, 255, 255, 0.4);
   cursor: pointer;
 }
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 22px;
+  right: 7px;
+}
 .navbar-toggle {
   display: flex;
   position: relative;
@@ -182,5 +188,36 @@ body {
   }
   .mobile-nav {
     display: block;
+  }
+}
+@media (max-width: 1098px) {
+  .mobile-menu {
+    display: block;
+  }
+  .navigation-container {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .website_logotype {
+    display: none;
+  }
+}
+@media (max-width: 407px) {
+  .website_name-main {
+    font-size: 38px;
+  }
+  .website_name-undermain {
+    font-size: 18px;
+    letter-spacing: 6px;
+  }
+  .navbar-toggle {
+    height: 40px;
+  }
+  .mobile-menu {
+    top: 17px;
+  }
+  .header-container {
+    height: 82px;
   }
 }
