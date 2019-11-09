@@ -133,6 +133,24 @@ body {
   margin-bottom: 2px;
 }
 
+#navbarSupportedContent20 {
+  position: absolute;
+  top: 66px;
+  right: 1px;
+  background-color: cornflowerblue;
+  height: 186px;
+  width: 155px;
+  border-radius: 4px;
+}
+.nav-link {
+  padding-left: 32px !important;
+}
+.nav-link:hover {
+  background-color: white;
+}
+.navbar-collapse.show {
+  transition: 0.3s !important;
+}
 .drop-down {
   list-style: none;
   padding-left: 0;
@@ -140,6 +158,25 @@ body {
   transition: height 0.3s;
   overflow: hidden;
   height: 0px;
+}
+
+.container-projects h2 {
+  margin-bottom: 13px;
+}
+
+.facebook-icon i {
+  font-size: 34px;
+  color: white;
+  padding: 6px;
+}
+.facebook-icon {
+  position: fixed;
+  top: 240px;
+  right: 0;
+  background-color: #3b5998;
+  width: 34px;
+  height: 43px;
+  border-radius: 4px;
 }
 
 #sidenav {
@@ -179,6 +216,7 @@ body {
 .container-services {
   margin-top: 35px;
 }
+
 @media (max-width: 1151px) {
   .nav-bar__lists__link {
     padding-left: 3px;
@@ -202,6 +240,9 @@ body {
   .website_logotype {
     display: none;
   }
+  #navbarSupportedContent20 {
+    top: 68px;
+  }
 }
 @media (max-width: 407px) {
   .website_name-main {
@@ -218,6 +259,9 @@ body {
     top: 17px;
   }
   .header-container {
-    height: 82px;
+    height: 82px !important;
+  }
+  #navbarSupportedContent20 {
+    top: 65px;
   }
 }
