@@ -55,3 +55,15 @@ window.addEventListener("scroll", () => {
     bar_lists.style.height = "117px";
   }
 });
+
+$(document).ready(function() {
+  // Handler for .ready() called.
+  $(".contact-link").click(function() {
+    $("html, body").animate(
+      {
+        scrollTop: $("#contacts").offset().top
+      },
+      "slow"
+    );
+  });
+});

@@ -217,6 +217,17 @@ body {
   margin-top: 35px;
 }
 
+.controls h2 {
+  padding-left: 15px;
+  margin-bottom: 13px;
+}
+#contacts {
+  padding-bottom: 25px;
+}
+.mb-4 {
+  margin-top: 60px;
+}
+
 @media (max-width: 1151px) {
   .nav-bar__lists__link {
     padding-left: 3px;
